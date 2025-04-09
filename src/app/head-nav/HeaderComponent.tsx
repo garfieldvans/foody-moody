@@ -17,7 +17,7 @@ const Header = () => {
         <div className="logo-container ">
           <a href="/" className="">
             <h1
-              className={`${gugi.className} text-4xl font-extrabold text-white bg-black px-8 py-3 `}
+              className={`${gugi.className} text-4xl font-extrabold text-white bg-black px-[28px] py-[28px] `}
               style={{ textShadow: "4px 1px 0px rgba(25,191,218,0.97)" }}
             >
               FW
@@ -27,27 +27,27 @@ const Header = () => {
         <nav className="flex">
           <ul className="flex gap-15 items-center">
             <li>
-              <Link href="/" className="text-black hover:text-gray-500">
+              <Link href="/" className="text-black hover:text-gray-500 font-medium text-[16px]">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/recipes" className="text-black hover:text-gray-500">
+              <Link href="/recipes" className="text-black hover:text-gray-500 font-medium text-[16px]">
                 Recipes
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="text-black hover:text-gray-500">
+              <Link href="/blog" className="text-black hover:text-gray-500 font-medium text-[16px]">
                 Blog
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-black hover:text-gray-500">
+              <Link href="/contact" className="text-black hover:text-gray-500 font-medium text-[16px]">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-black hover:text-gray-500">
+              <Link href="/about" className="text-black hover:text-gray-500 font-medium text-[16px]">
                 About Us
               </Link>
             </li>
