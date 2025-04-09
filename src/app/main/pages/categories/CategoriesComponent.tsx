@@ -16,7 +16,7 @@ export const CategoriesComponent = () => {
                     <div>
                         <div className="flex gap-[40px]">
                             {categoriesData.slice(0, 6).map((category) => (
-                                <a href={category.categoryUrl} key={category.id} className="flex rounded-[30px] shadow-lg overflow-hidden items-center justify-center"  style={{ width: "100%", maxWidth: "calc(100% / 6)", backgroundColor: `${category.categoryThemeColor}` }}>
+                                <a href={category.categoryUrl} key={category.id} className="flex rounded-[30px] shadow-lg overflow-hidden items-center justify-center"  style={{ width: "100%", maxWidth: "calc(100% / 6)", backgroundImage: `${category.categoryThemeColor}` }}>
                                     <div key={category.id} className="flex flex-col items-center justify-center gap-[10px] py-[30px] px-[20px]">
                                         <img src={category.categoryImageUrl} alt={category.title} className="w-full aspect-square max-h-[100px] h-full object-contain rounded-lg mb-4" />
                                         <h3 className="text-[16px] font-semibold text-black">{category.title}</h3>

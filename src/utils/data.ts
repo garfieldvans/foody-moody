@@ -73,7 +73,7 @@ export const categoriesData = [
     description: "Start your day with a delicious breakfast.",
     categoryUrl: "/categories/breakfast",
     categoryImageUrl: "/images/breakfast.png",
-    categoryThemeColor: "#708246",
+    categoryThemeColor: "linear-gradient(to top, rgb(112, 130, 70, 0.4), rgb(108, 166, 141, 0.3), rgb(145, 196, 201, 0.3), rgb(207, 223, 236, 0.3), rgb(255, 255, 255))",
   },
   {
     id: "lunch",
@@ -81,7 +81,7 @@ export const categoriesData = [
     description: "Quick and easy lunch recipes.",
     categoryUrl: "/categories/lunch",
     categoryImageUrl: "/images/lunch.png",
-    categoryThemeColor: "#000000",
+    categoryThemeColor: "linear-gradient(to top, rgb(85, 85, 85, 0.4), rgb(124 124 124 / 30%), rgb(166 166 166 / 30%), rgb(210 210 210 / 30%), #ffffff)",
   },
   {
     id: "seafood",
@@ -89,7 +89,7 @@ export const categoriesData = [
     description: "Fresh and delicious seafood recipes.",
     categoryUrl: "/categories/seafood",
     categoryImageUrl: "/images/seafood.png",
-    categoryThemeColor: "#007BFF",
+    categoryThemeColor: "linear-gradient(to top,rgb(0, 123, 255, 0.4),rgb(127, 152, 255, 0.3),rgb(180, 184, 255, 0.3),rgb(221, 218, 255, 0.3), #ffffff)",
   },
   {
     id: "dinner",
@@ -97,7 +97,7 @@ export const categoriesData = [
     description: "Hearty dinner recipes for the whole family.",
     categoryUrl: "/categories/dinner",
     categoryImageUrl: "/images/dinner.png",
-    categoryThemeColor: "#4ECDC4",
+    categoryThemeColor: "linear-gradient(to top,rgb(78, 205, 196, 0.4),rgb(127, 216, 233, 0.3),rgb(183, 226, 251, 0.3),rgb(228, 238, 255, 0.3), #ffffff);",
   },
   {
     id: "desserts",
@@ -105,7 +105,7 @@ export const categoriesData = [
     description: "Sweet treats to satisfy your cravings.",
     categoryUrl: "/categories/desserts",
     categoryImageUrl: "/images/dessert.png",
-    categoryThemeColor: "#F09E00",
+    categoryThemeColor: "linear-gradient(to top,rgb(240, 158, 0, 0.4),rgb(255, 158, 127, 0.3),rgb(255, 186, 209, 0.3),rgb(255, 224, 253, 0.3), #ffffff);",
   },
   {
     id: "vegan",
@@ -113,7 +113,7 @@ export const categoriesData = [
     description: "Delicious vegan recipes for everyone.",
     categoryUrl: "/categories/vegan",
     categoryImageUrl: "/images/vegan.png",
-    categoryThemeColor: "#6CC63F",
+    categoryThemeColor: "linear-gradient(to top,rgb(17, 168, 33, 0.4),rgb(0, 222, 78, 0.3),rgb(94, 254, 177, 0.3), rgb(205, 239, 255, 0.3), #ffffff)",
   },
   {
     id: "meat",
