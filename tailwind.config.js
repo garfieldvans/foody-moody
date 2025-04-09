@@ -8,6 +8,9 @@ module.exports = {
           '15': '60px',
           
         },
+        backgroundColor: {
+          'bg-azure-mist': '#E7FAFE'
+        },
 
       },
     },

@@ -65,3 +65,70 @@ export const heroData = [
     tags: ["cake", "chocolate", "dessert"],
   },
 ];
+
+export const categoriesData = [
+  {
+    id: "breakfast",
+    title: "Breakfast",
+    description: "Start your day with a delicious breakfast.",
+    categoryUrl: "/categories/breakfast",
+    categoryImageUrl: "/images/breakfast.png",
+    categoryThemeColor: "#708246",
+  },
+  {
+    id: "lunch",
+    title: "Lunch",
+    description: "Quick and easy lunch recipes.",
+    categoryUrl: "/categories/lunch",
+    categoryImageUrl: "/images/lunch.png",
+    categoryThemeColor: "#000000",
+  },
+  {
+    id: "seafood",
+    title: "Seafood",
+    description: "Fresh and delicious seafood recipes.",
+    categoryUrl: "/categories/seafood",
+    categoryImageUrl: "/images/seafood.png",
+    categoryThemeColor: "#007BFF",
+  },
+  {
+    id: "dinner",
+    title: "Dinner",
+    description: "Hearty dinner recipes for the whole family.",
+    categoryUrl: "/categories/dinner",
+    categoryImageUrl: "/images/dinner.png",
+    categoryThemeColor: "#4ECDC4",
+  },
+  {
+    id: "desserts",
+    title: "Desserts",
+    description: "Sweet treats to satisfy your cravings.",
+    categoryUrl: "/categories/desserts",
+    categoryImageUrl: "/images/dessert.png",
+    categoryThemeColor: "#F09E00",
+  },
+  {
+    id: "vegan",
+    title: "Vegan",
+    description: "Delicious vegan recipes for everyone.",
+    categoryUrl: "/categories/vegan",
+    categoryImageUrl: "/images/vegan.png",
+    categoryThemeColor: "#6CC63F",
+  },
+  {
+    id: "meat",
+    title: "Meat",
+    description: "Savory meat recipes for meat lovers.",
+    categoryUrl: "/categories/meat",
+    categoryImageUrl: "/images/meat.png",
+    categoryThemeColor: "#CC261B",
+  },
+  {
+    id: "chocolate",
+    title: "Chocolate",
+    description: "Indulge in rich chocolate recipes.",
+    categoryUrl: "/categories/chocolate",
+    categoryImageUrl: "/images/chocolate.png",
+    categoryThemeColor: "#D2691E",
+  }
+]
